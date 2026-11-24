@@ -1,0 +1,28 @@
+# 依赖目录（体积巨大，不该上传）
+node_modules/
+
+# 环境变量（含密钥，绝对不能上传）
+.env
+.env.local
+.env.*.local
+
+# 数据库文件（含用户数据）
+*.db
+*.db-*
+
+# 日志
+*.log
+
+# 构建产物
+dist/
+build/
+
+# 部署临时目录 / 备份目录 / 后端托管的构建产物
+deploy/
+blog-system-backup-*/
+server/public/
+
+# 编辑器/系统文件
+.DS_Store
+.idea/
+.vscode/
